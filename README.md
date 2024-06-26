@@ -51,25 +51,27 @@ Before you begin, ensure you have met the following requirements:
 
 ## Project Structure
 
-├── client
-│ ├── public
-│ │ └── index.html
-│ ├── src
-│ │ ├── components
-│ │ │ ├── CreateEmployee.js
-│ │ │ ├── Employee.js
-│ │ │ ├── UpdateEmployee.js
-│ │ ├── App.js
-│ │ └── index.js
-│ ├── README.md
-│ ├── package-lock.json
-│ ├── package.json
-├── server
-│ ├── models
-│ │ └── employee.js
-│ ├── package-lock.json
-│ ├── package.json
-│ ├── server.js
+```plaintext
+CRUD_APP/
+├── client/
+│   ├── public/
+│   │   └── index.html
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── CreateEmployee.js
+│   │   │   ├── Employee.js
+│   │   │   ├── UpdateEmployee.js
+│   │   ├── App.js
+│   │   └── index.js
+│   ├── README.md
+│   ├── package-lock.json
+│   ├── package.json
+├── server/
+│   ├── models/
+│   │   └── employee.js
+│   ├── package-lock.json
+│   ├── package.json
+│   ├── server.js
 ├── readme.txt
 ├── .gitignore
 ├── README.md
